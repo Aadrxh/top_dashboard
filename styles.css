@@ -3,10 +3,22 @@
   padding: 0;
   box-sizing: border-box;
   border: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-
-
+.iccon{
+  display: flex;
+  align-items: center;
+  gap: 12px; 
+  text-decoration: none;
+  font-size: larger;
+  color: rgb(0, 0, 0); 
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+.icoon{
+    width: 30px;
+}
 #maincontainer{
     display: flex;
     height: 100vh;
@@ -14,9 +26,25 @@
 #lmain{
     display: flex;
     flex-direction: column;
+   padding: 0.5rem;
     width: 260px;
     border: solid black;
     background-color: rgb(50, 149, 224);
+    gap: 0.001px;
+    
+}
+.icon{
+    display: flex;
+    font-size: large;
+    text-decoration: none;
+    padding: 14px;
+    gap: 9px;
+    color: black;
+    
+}
+.icon img{
+    width: 30px;
+    height: 27px;
 }
 #rmain{
     display: flex;
@@ -27,6 +55,17 @@
 #rtop{
     height: 170px;
     border:solid black
+}
+#rtop1{
+    border: solid black;
+    height: 50%;
+    display: flex;
+    
+}
+#rtop2{
+    border: solid black;
+    height: 50%;
+    display: flex;
 }
 #rbottom{
     border: solid black;
