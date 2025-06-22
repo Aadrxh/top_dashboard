@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+
+
+#maincontainer{
+    display: flex;
+    height: 100vh;
+}
+#lmain{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    border: solid black;
+    background-color: rgb(50, 149, 224);
+}
+#rmain{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    border: solid black;
+}
+#rtop{
+    height: 170px;
+    border:solid black
+}
+#rbottom{
+    border: solid black;
+    height: 100%;
+    background-color: rgba(224, 223, 222, 0.742);
+}
